@@ -28,23 +28,17 @@ _global_script_classes=[ {
 "class": "LocationData",
 "language": "GDScript",
 "path": "res://Resources/Locations/LocationData.gd"
-}, {
-"base": "TextureButton",
-"class": "LocationMarker",
-"language": "GDScript",
-"path": "res://Scenes/LocationMarker/LocationMarker.gd"
 } ]
 _global_script_class_icons={
 "AppLog": "",
 "AppSettings": "",
 "GameLog": "",
-"LocationData": "",
-"LocationMarker": ""
+"LocationData": ""
 }
 
 [application]
 
-config/name="Ritual Game"
+config/name="GameJamBoilerPlate-gdscript"
 run/main_scene="res://Scenes/InitApp/InitApp.tscn"
 config/icon="res://icon.png"
 
